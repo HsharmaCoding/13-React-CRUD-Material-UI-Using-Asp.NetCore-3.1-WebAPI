@@ -1,0 +1,31 @@
+1. Implement Create/Read/Update/Delete (CRUD) operations with Search (React Application) using Asp.Net Core 3.1 Web-API.
+2. Asp.Net Core Web API (3.1) for CRUD operations.
+3. SQL database has been used to store the database.
+4. Install axios API for API call.
+    > npm i axios
+5. Material UI them has been used for design and controls.
+    > https://v4.mui.com/
+6. Install the below package to implement the routing in the application.
+    > npm i react-router-dom
+7. Install the following commands for Material UI theme.
+    > npm install @material-ui/core
+    > npm i @material-ui/pickers
+    > npm i @date-io/date-fns
+    > npm i moment-timezone
+    > npm i date-fns
+8. Setup the React Application (react-crud-material-ui-using-web-api-app).
+    > Run command - npm install
+    > If above command shows error then run the below command.
+    > npm config set legacy-peer-deps true
+    > npm i
+9. Setup the WebAPI (Asp.Net Core Web API 3.1).
+    > API is working with SQL database. System should have the SQL database.
+    > Run the SQL script in the local database (Database/RoketWorks.sql) . It will create the required tables with data.
+10. Run the React-APP and Web-API application together.
+
+
+
+
+
+
+

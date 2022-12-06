@@ -1,0 +1,272 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\CodeCirculationDev\\13-React-CRUD-Material-UI-Using-Asp.NetCore-3.1-WebAPI\\WebAPI\\WebAPI.Services\\WebAPI.Services.csproj": {}
+  },
+  "projects": {
+    "D:\\CodeCirculationDev\\13-React-CRUD-Material-UI-Using-Asp.NetCore-3.1-WebAPI\\WebAPI\\WebAPI.Common\\WebAPI.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\CodeCirculationDev\\13-React-CRUD-Material-UI-Using-Asp.NetCore-3.1-WebAPI\\WebAPI\\WebAPI.Common\\WebAPI.Common.csproj",
+        "projectName": "WebAPI.Common",
+        "projectPath": "D:\\CodeCirculationDev\\13-React-CRUD-Material-UI-Using-Asp.NetCore-3.1-WebAPI\\WebAPI\\WebAPI.Common\\WebAPI.Common.csproj",
+        "packagesPath": "C:\\Users\\hshar\\.nuget\\packages\\",
+        "outputPath": "D:\\CodeCirculationDev\\13-React-CRUD-Material-UI-Using-Asp.NetCore-3.1-WebAPI\\WebAPI\\WebAPI.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\hshar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.414\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\CodeCirculationDev\\13-React-CRUD-Material-UI-Using-Asp.NetCore-3.1-WebAPI\\WebAPI\\WebAPI.DataAccess\\WebAPI.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\CodeCirculationDev\\13-React-CRUD-Material-UI-Using-Asp.NetCore-3.1-WebAPI\\WebAPI\\WebAPI.DataAccess\\WebAPI.DataAccess.csproj",
+        "projectName": "WebAPI.DataAccess",
+        "projectPath": "D:\\CodeCirculationDev\\13-React-CRUD-Material-UI-Using-Asp.NetCore-3.1-WebAPI\\WebAPI\\WebAPI.DataAccess\\WebAPI.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\hshar\\.nuget\\packages\\",
+        "outputPath": "D:\\CodeCirculationDev\\13-React-CRUD-Material-UI-Using-Asp.NetCore-3.1-WebAPI\\WebAPI\\WebAPI.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\hshar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.414\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\CodeCirculationDev\\13-React-CRUD-Material-UI-Using-Asp.NetCore-3.1-WebAPI\\WebAPI\\WebAPI.Domain\\WebAPI.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\CodeCirculationDev\\13-React-CRUD-Material-UI-Using-Asp.NetCore-3.1-WebAPI\\WebAPI\\WebAPI.Domain\\WebAPI.Domain.csproj",
+        "projectName": "WebAPI.Domain",
+        "projectPath": "D:\\CodeCirculationDev\\13-React-CRUD-Material-UI-Using-Asp.NetCore-3.1-WebAPI\\WebAPI\\WebAPI.Domain\\WebAPI.Domain.csproj",
+        "packagesPath": "C:\\Users\\hshar\\.nuget\\packages\\",
+        "outputPath": "D:\\CodeCirculationDev\\13-React-CRUD-Material-UI-Using-Asp.NetCore-3.1-WebAPI\\WebAPI\\WebAPI.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\hshar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.414\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\CodeCirculationDev\\13-React-CRUD-Material-UI-Using-Asp.NetCore-3.1-WebAPI\\WebAPI\\WebAPI.Services\\WebAPI.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\CodeCirculationDev\\13-React-CRUD-Material-UI-Using-Asp.NetCore-3.1-WebAPI\\WebAPI\\WebAPI.Services\\WebAPI.Services.csproj",
+        "projectName": "WebAPI.Services",
+        "projectPath": "D:\\CodeCirculationDev\\13-React-CRUD-Material-UI-Using-Asp.NetCore-3.1-WebAPI\\WebAPI\\WebAPI.Services\\WebAPI.Services.csproj",
+        "packagesPath": "C:\\Users\\hshar\\.nuget\\packages\\",
+        "outputPath": "D:\\CodeCirculationDev\\13-React-CRUD-Material-UI-Using-Asp.NetCore-3.1-WebAPI\\WebAPI\\WebAPI.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\hshar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\CodeCirculationDev\\13-React-CRUD-Material-UI-Using-Asp.NetCore-3.1-WebAPI\\WebAPI\\WebAPI.Common\\WebAPI.Common.csproj": {
+                "projectPath": "D:\\CodeCirculationDev\\13-React-CRUD-Material-UI-Using-Asp.NetCore-3.1-WebAPI\\WebAPI\\WebAPI.Common\\WebAPI.Common.csproj"
+              },
+              "D:\\CodeCirculationDev\\13-React-CRUD-Material-UI-Using-Asp.NetCore-3.1-WebAPI\\WebAPI\\WebAPI.DataAccess\\WebAPI.DataAccess.csproj": {
+                "projectPath": "D:\\CodeCirculationDev\\13-React-CRUD-Material-UI-Using-Asp.NetCore-3.1-WebAPI\\WebAPI\\WebAPI.DataAccess\\WebAPI.DataAccess.csproj"
+              },
+              "D:\\CodeCirculationDev\\13-React-CRUD-Material-UI-Using-Asp.NetCore-3.1-WebAPI\\WebAPI\\WebAPI.Domain\\WebAPI.Domain.csproj": {
+                "projectPath": "D:\\CodeCirculationDev\\13-React-CRUD-Material-UI-Using-Asp.NetCore-3.1-WebAPI\\WebAPI\\WebAPI.Domain\\WebAPI.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.414\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
